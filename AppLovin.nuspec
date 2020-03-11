@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
-    <id>Xamarin.Android.UnityAdsSdk</id>
-    <version>3.1.0.0</version>
-    <description>Xamarin Binding Library - Unity::UnityAdsSdk</description>
+    <id>Xamarin.Android.AppLovinSdk</id>
+    <version>9.4.2.0</version>
+    <description>Xamarin Binding Library - Unity::AppLovinSdk</description>
     <authors>Michał Krzus</authors>
     <owners>Michał Krzus</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <title>Xamarin - Unity::UnityAdsSdk</title>
-    <releaseNotes>Unity::UnityAdsSdk v3.1.0</releaseNotes>
-    <summary>Xamarin Binding Library - Unity::UnityAdsSdk</summary>
+    <title>Xamarin - Unity::AppLovinSdk</title>
+    <releaseNotes>Unity::AppLovinSdk v9.4.2</releaseNotes>
+    <summary>Xamarin Binding Library - Unity::AppLovinSdk</summary>
     <license type="expression">Apache-2.0</license>
-    <projectUrl>https://github.com/Vintar/Xamarin.Android.UnityAdsSdk</projectUrl>
+    <projectUrl>https://github.com/Vintar/Xamarin.Android.AppLovinSdk</projectUrl>
     <copyright>Copyright (c) 2020 Michał Krzus</copyright>
-    <tags>Xamarin.Android, Mediation, UnityAds, UnityAdsSdk</tags>
+    <tags>Xamarin.Android, Mediation, AppLovin, AppLovinSdk</tags>
   </metadata>
 
   <files>
-    <file src="Xamarin.Android.UnityAdsSdk/bin/Release/Xamarin.Android.UnityAdsSdk.dll" target="lib/MonoAndroid10/Xamarin.Android.UnityAdsSdk.dll" />
+    <file src="AppLovinSdk/bin/Release/AppLovinSdk.dll" target="lib/MonoAndroid10/AppLovinSdk.dll" />
   </files>
 
 </package>

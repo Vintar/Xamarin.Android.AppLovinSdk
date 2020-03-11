@@ -8,7 +8,7 @@ using Com.Applovin.Sdk;
 namespace AppLovinSdkSample.Droid.Interstitials
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
-    public class InterstitialBasicIntegrationActivity : AdStatusActivity, IAppLovinAdLoadListener, IAppLovinAdDisplayListener, IAppLovinAdClickListener, Com.Applovin.Sdk.IAppLovinAdViewEventListener
+    public class InterstitialBasicIntegrationActivity : AdStatusActivity, IAppLovinAdLoadListener, IAppLovinAdDisplayListener, IAppLovinAdClickListener, IAppLovinAdVideoPlaybackListener
     {
         private IAppLovinInterstitialAdDialog interstitialAd;
         private Button showButton;

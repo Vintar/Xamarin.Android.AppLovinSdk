@@ -9,7 +9,7 @@ using Com.Applovin.Sdk;
 namespace AppLovinSdkSample.Droid.Rewarded
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
-    public class RewardedVideosActivity : AdStatusActivity, IAppLovinAdLoadListener, Com.Applovin.Sdk.IAppLovinAdViewEventListener, IAppLovinAdRewardListener, IAppLovinAdDisplayListener, IAppLovinAdClickListener
+    public class RewardedVideosActivity : AdStatusActivity, IAppLovinAdLoadListener, IAppLovinAdVideoPlaybackListener, IAppLovinAdRewardListener, IAppLovinAdDisplayListener, IAppLovinAdClickListener
     {
         private Button showButton;
         private AppLovinIncentivizedInterstitial incentivizedInterstitial;
