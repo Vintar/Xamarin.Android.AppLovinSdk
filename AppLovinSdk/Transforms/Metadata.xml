@@ -1,0 +1,3 @@
+﻿<metadata>
+  <remove-node path="/api/package[@name='com.applovin.impl.sdk']/class[@name='AppLovinAdServiceImpl']/method[@name='removeAdUpdateListener' and count(parameter)=2 and parameter[1][@type='com.applovin.sdk.AppLovinAdUpdateListener'] and parameter[2][@type='com.applovin.sdk.AppLovinAdSize']]" />
+</metadata>
